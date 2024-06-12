@@ -1,0 +1,39 @@
+
+version: 2
+
+models:
+  - name: stg_order
+    columns: 
+      - name: O_ORDERKEY
+        tests:
+          - primary_key
+
+  - name: stg_cust
+    columns: 
+      - name: C_CUSTKEY
+        tests:
+          - is_alphabet
+    
+  - name: stg_region
+    columns: 
+      - name: R_NAME
+        tests:
+          - region_name
+sources:
+  - name: clone_database_sample
+    schema: tpch1_sf1_clone
+    tables:
+      - name: employee_details
+        description: "employee information"
+      - name: supplierclone
+        description: "Supplier information including account balances"
+      - name: nationclone
+        description: "Nation information"
+      - name: ordersclone
+        description: "order information"
+      - name: customerclone
+        description: "customer information" 
+      - name: regionclone
+        description: "Region information" 
+      
+

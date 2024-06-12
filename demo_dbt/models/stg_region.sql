@@ -1,0 +1,1 @@
+select R_REGIONKEY,R_NAME,R_COMMENT from {{source('clone_database_sample','regionclone')}}

@@ -1,0 +1,1 @@
+select C_CUSTKEY,C_NAME,C_ACCTBAL from clone_database_sample.tpch1_sf1_clone.customerclone

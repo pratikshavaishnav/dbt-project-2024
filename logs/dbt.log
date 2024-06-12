@@ -1,0 +1,93 @@
+[0m12:55:05.569402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C748635B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C74B0D2CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C74B0D2A60>]}
+
+
+============================== 12:55:05.573245 | d7f3adfe-02ee-4e73-847f-94f3c88b1736 ==============================
+[0m12:55:05.573245 [info ] [MainThread]: Running with dbt=1.8.1
+[0m12:55:05.576492 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\PratikshaVaishnav\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init demo-dbt', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:55:05.616503 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/PratikshaVaishnav/.dbt')}
+[0m12:55:05.616503 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m12:55:36.915730 [debug] [MainThread]: Starter project path: C:\Users\PratikshaVaishnav\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+[0m12:55:37.035842 [info ] [MainThread]: 
+Your new dbt project "demo_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:55:37.035842 [info ] [MainThread]: Setting up your profile.
+[0m12:59:20.086318 [info ] [MainThread]: Profile demo_dbt written to C:\Users\PratikshaVaishnav\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:59:20.101333 [debug] [MainThread]: Command `dbt init` succeeded at 12:59:20.101333 after 254.63 seconds
+[0m12:59:20.101333 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C748635B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C74B0D2CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C74B171700>]}
+[0m12:59:20.101333 [debug] [MainThread]: Flushing usage events
+[0m12:59:37.759385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A18615B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A1B0B4AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A1B0B49D0>]}
+
+
+============================== 12:59:37.762895 | 9664a3b4-b6f4-4c05-9e23-28d24e03e724 ==============================
+[0m12:59:37.762895 [info ] [MainThread]: Running with dbt=1.8.1
+[0m12:59:37.762895 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\PratikshaVaishnav\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:59:37.778791 [info ] [MainThread]: dbt version: 1.8.1
+[0m12:59:37.778791 [info ] [MainThread]: python version: 3.9.11
+[0m12:59:37.778791 [info ] [MainThread]: python path: C:\Users\PratikshaVaishnav\AppData\Local\Programs\Python\Python39\python.exe
+[0m12:59:37.789734 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m12:59:38.079111 [info ] [MainThread]: Using profiles dir at C:\Users\PratikshaVaishnav\.dbt
+[0m12:59:38.079111 [info ] [MainThread]: Using profiles.yml file at C:\Users\PratikshaVaishnav\.dbt\profiles.yml
+[0m12:59:38.079111 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\PratikshaVaishnav\demo-dbt\dbt_project.yml
+[0m12:59:38.079111 [info ] [MainThread]: adapter type: snowflake
+[0m12:59:38.079111 [info ] [MainThread]: adapter version: 1.8.2
+[0m12:59:38.079111 [info ] [MainThread]: Configuration:
+[0m12:59:38.079111 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:59:38.079111 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:59:38.094883 [info ] [MainThread]: Required dependencies:
+[0m12:59:38.094883 [debug] [MainThread]: Executing "git --help"
+[0m12:59:38.141189 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:59:38.141189 [debug] [MainThread]: STDERR: "b''"
+[0m12:59:38.142202 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:59:38.142202 [info ] [MainThread]: Connection:
+[0m12:59:38.142202 [info ] [MainThread]:   account: kmb57374.us-east-1
+[0m12:59:38.144049 [info ] [MainThread]:   user: skumar
+[0m12:59:38.144707 [info ] [MainThread]:   database: snowflake_sample_data
+[0m12:59:38.144707 [info ] [MainThread]:   warehouse: SNOWFLAKE_DEMO_POC
+[0m12:59:38.146101 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m12:59:38.146101 [info ] [MainThread]:   schema: TPCH_SF1
+[0m12:59:38.146101 [info ] [MainThread]:   authenticator: None
+[0m12:59:38.146101 [info ] [MainThread]:   oauth_client_id: None
+[0m12:59:38.146101 [info ] [MainThread]:   query_tag: None
+[0m12:59:38.146101 [info ] [MainThread]:   client_session_keep_alive: False
+[0m12:59:38.146101 [info ] [MainThread]:   host: None
+[0m12:59:38.146101 [info ] [MainThread]:   port: None
+[0m12:59:38.146101 [info ] [MainThread]:   proxy_host: None
+[0m12:59:38.146101 [info ] [MainThread]:   proxy_port: None
+[0m12:59:38.146101 [info ] [MainThread]:   protocol: None
+[0m12:59:38.154176 [info ] [MainThread]:   connect_retries: 1
+[0m12:59:38.154872 [info ] [MainThread]:   connect_timeout: None
+[0m12:59:38.154872 [info ] [MainThread]:   retry_on_database_errors: False
+[0m12:59:38.154872 [info ] [MainThread]:   retry_all: False
+[0m12:59:38.154872 [info ] [MainThread]:   insecure_mode: False
+[0m12:59:38.157918 [info ] [MainThread]:   reuse_connections: None
+[0m12:59:38.157918 [info ] [MainThread]: Registered adapter: snowflake=1.8.2
+[0m12:59:38.157918 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m12:59:38.157918 [debug] [MainThread]: Using snowflake connection "debug"
+[0m12:59:38.157918 [debug] [MainThread]: On debug: select 1 as id
+[0m12:59:38.157918 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:59:40.727987 [debug] [MainThread]: SQL status: SUCCESS 1 in 3.0 seconds
+[0m12:59:40.727987 [debug] [MainThread]: On debug: Close
+[0m12:59:41.375047 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:59:41.390491 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:59:41.390491 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\PratikshaVaishnav\demo-dbt\dbt_project.yml> not found
+
+[0m12:59:41.390491 [debug] [MainThread]: Command `dbt debug` failed at 12:59:41.390491 after 3.73 seconds
+[0m12:59:41.390491 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:59:41.390491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A18615B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A1B8E58E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A1BE38EE0>]}
+[0m12:59:41.390491 [debug] [MainThread]: Flushing usage events
